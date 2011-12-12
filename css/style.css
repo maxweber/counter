@@ -1,0 +1,21 @@
+#counter span {
+   display: block;
+   float: left;
+   background: transparent url('counter.png') no-repeat 0 0;
+   width: 15px;
+   height: 30px;
+   margin: 0 1px;
+   color: transparent;
+   text-indent: -99999999px;
+}
+
+#counter span.number0 { background-position: 0 0; }
+#counter span.number1 { background-position: 0 -30px; }
+#counter span.number2 { background-position: 0 -60px; }
+#counter span.number3 { background-position: 0 -90px; }
+#counter span.number4 { background-position: 0 -120px; }
+#counter span.number5 { background-position: 0 -150px; }
+#counter span.number6 { background-position: 0 -180px; }
+#counter span.number7 { background-position: 0 -210px; }
+#counter span.number8 { background-position: 0 -240px; }
+#counter span.number9 { background-position: 0 -270px; }
