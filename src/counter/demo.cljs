@@ -37,8 +37,11 @@
     (:require [hiccups.runtime :as h]))
   
   (defn build-counter2 [count]
-    (map (fn [n] [:span {:class (str "show" n)} n]) count))
+    (map (fn [n] [:span {:class (str "number" n)} n]) count))
 
+  (defn get-count [callback]
+    (callback "11414"))
+  
   (defn demo3 []
     (get-count #(show (h/render-html (build-counter2 (prepare-count % 7))))))
   )
