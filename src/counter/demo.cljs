@@ -39,6 +39,8 @@
   (defn build-counter2 [count]
     (map (fn [n] [:span {:class (str "number" n)} n]) count))
 
+  (build-counter "9521")
+
   (defn get-count [callback]
     (callback "11414"))
   
